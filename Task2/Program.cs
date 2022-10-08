@@ -7,9 +7,17 @@ int b = int.Parse(Console.ReadLine());
 
     if(Math.Sqrt(a) == b) 
     {
-        Console.WriteLine("Да, первое число является квадратом второго");
+        Console.WriteLine("Первое число является квадратом второго");
     }
     else 
     {
-        Console.WriteLine("Нет, первое число не является квадратом второго");
+        Console.WriteLine("Первое число не является квадратом второго");
+    }
+     if(Math.Sqrt(b) == a) 
+    {
+        Console.WriteLine("Второе число является квадратом первого");
+    }
+    else 
+    {
+        Console.WriteLine("Второе число является квадратом первого");
     }
